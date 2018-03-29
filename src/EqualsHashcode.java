@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class equalsHashcode {
+public class EqualsHashcode {
     /*
     La classe User redéfinit equals et hashcode. Sans ça, on voit que les deux objets ne sont pas égaux car de base,
     equals compare les adresses mémoire. Une fois equals redéfinit, si on ne redéfinit pas hashcode, on peut toujours
