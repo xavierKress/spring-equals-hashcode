@@ -59,9 +59,7 @@ class Garage {
     public Garage() {
     }
 
-    /*
-     * TODO remove wildcard "<? extends Vehicle>" and replace by the type <Vehicle> before submitting the test
-     */
+
     public Set<String> getBrands(List<? extends Vehicle> listOfVehicle) {
         Set<String> brands = new HashSet();
         for (Vehicle v : listOfVehicle) {
